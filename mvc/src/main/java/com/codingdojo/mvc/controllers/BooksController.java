@@ -28,7 +28,7 @@ public class BooksController {
 	public String index(Model model) {
 	    List<Book> books = bookService.allBooks();
 	    model.addAttribute("books", books);
-	    return "/books/index.jsp";
+	    return "/books/Index.jsp";
 	}
 	 
 	@RequestMapping("/books/new")
